@@ -22,12 +22,12 @@
     <form method="POST" action="https://formspree.io/niels.bekkers@skynet.be" name="sentMessage" id="contactForm">
     	<table>
     		<tr>
-    			<td><input type="text" placeholder="Name" size="30" required="required" />&nbsp;</td>
-    			<td><input type="text" placeholder="Email" size="30" required="required" /></td>
+    			<td><input type="text" name="name" placeholder="Name" size="30" required="required" />&nbsp;</td>
+    			<td><input type="text" name="email" placeholder="Email" size="30" required="required" /></td>
     		</tr>
     		<tr><td>&nbsp;</td></tr>
     		<tr>
-    			<td colspan="2"><textarea rows="4" cols="74" placeholder="Message" required="required"></textarea></td>
+    			<td colspan="2"><textarea name="message" rows="4" cols="74" placeholder="Message" required="required"></textarea></td>
     		</tr>
     		<tr>
     			<td colspan="2"><br/><button type="submit" class="btn btn-success">Submit &nbsp;&nbsp;<i class="fa fa-rocket" aria-hidden="true"></i></button></td>
