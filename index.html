@@ -66,9 +66,18 @@
     <script type="text/javascript" src="assets/js/instafeed.min.js"></script>
     <script type="text/javascript">
         var feed = new Instafeed({
-            clientId: '2b50f868ab98423da3f0b8637deda171'
+            clientId: '2b50f868ab98423da3f0b8637deda171',
+            target: 'instafeed'
         });
         feed.run();
+    </script>
+    <script type="text/javascript">
+        var userFeed = new Instafeed({
+            clientId: '2b50f868ab98423da3f0b8637deda171',
+            get: 'user',
+            userId: '261887136'
+        });
+        userFeed.run();
     </script>
 
     
