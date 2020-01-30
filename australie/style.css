@@ -159,3 +159,7 @@ body {
     opacity: 1;
 }
 
+.loader-icon {
+    float:right;
+}
+
