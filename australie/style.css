@@ -10,6 +10,12 @@ body {
     height: 100%;
 }
 
+@media only screen and (min-width: 768px) {
+    .h-100-override {
+        height: 100%!important;
+    }
+}
+
 .container {
     height: 100%;
 }
